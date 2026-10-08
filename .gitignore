@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+*.pem
+*.key
+
+# Competition/private data
+train.csv
+test.csv
+sample_submission.csv
+*.wav
+*.mp3
+*.flac
+
+# Generated caches / features / model files
+cache/
+shl_transcript_cache/
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Submission files
+submission_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
